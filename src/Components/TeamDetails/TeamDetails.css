@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.team-details-area{
+    height: 55vh;
+}
+.team-overly{
+    height: 55vh;
+    background-color: rgba(255, 255, 255, 0.74);
+    padding:0 30px ;
+
+}
+.team-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+.team-img img{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 100px;
+}
+.team-overly button{
+    background-color:#ff4d4d;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3.4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.team-information-area{
+    background-color: #ff4d4d;
+}
+.team-information-area-container{
+    width: 80%;
+    margin:auto;
+    padding: 20px 0;
+}

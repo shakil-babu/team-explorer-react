@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-area{
+    background: url('../../Images/stadium.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.overly{
+    background: rgba(0, 0, 0, 0.76);
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team-name{
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3.5px;
+}
+.team-name span{
+    border-bottom: 4px solid #ff4d4d;
+}
+
+@media screen and (max-width:520px){
+    .team-name {
+        font-size: 30px;
+    }
+    .team-name span {
+        border-bottom: 3px solid #ff4d4d;
+    }
+}

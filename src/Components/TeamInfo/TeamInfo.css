@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+.club-info-flex{
+    display: flex;
+    justify-content: space-between;
+    background-color:#5f27cd;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+.club-info h1{
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 3.5px ;
+}
+.club-info h4{
+    font-size: 19px;
+    letter-spacing: 3.4px;
+    color: #fff;
+    margin-top: 15px;
+}
+.club-info-flex img{
+    width: 50%;
+    height: 230px;
+}
+.icon-flex{
+    display: flex;
+}
+.icon-flex .icon{
+    font-size: 27px;
+    color: #fff;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
+.description{
+    font-size:17px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.767);
+    margin-top: 30px;
+    font-family: 'Recursive', sans-serif;
+}
+
+.social-icons{
+    display: flex;
+    width: 200px;
+    margin: 30px auto;
+}
+.s-icon{
+    font-size: 35px;
+    color: #fff;
+}
+
+.twitter{
+    background:	#1DA1F2;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.facebook{
+    background:	#4267B2;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.instragram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.youtube{
+    background: #c4302b;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+@media screen and (max-width:768px){
+    .club-info-flex{
+        flex-direction: column;
+    }
+    .club-info-flex img{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .club-info{
+        width: 100%;
+    }
+    .social-icons{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .twitter, .facebook, .instragram, .youtube{
+        width: 50px;
+    }
+    .s-icon{
+        margin: 0;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .social-icons{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .twitter, .facebook, .instragram, .youtube{
+        margin-bottom: 5px;
+    }
+}

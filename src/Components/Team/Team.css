@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.team-card-area{
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 15px;
+    font-family: 'Bebas Neue', cursive;
+}
+.team-card-area img{
+    width: 50%;
+    height: 150px;
+    margin: 15px 0;
+}
+.team-card-area h1{
+    letter-spacing: 3.4px;
+    font-size: 30px;
+}
+.team-card-area p{
+    font-family:monospace;
+    font-size: 17px;
+    color: gray;
+    font-weight: bold;
+}
+
+.team-card-area button{
+    background-color:#ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    width: 180px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3.4px;
+    margin: 15px 0;
+    cursor: pointer;
+    position: relative;
+}
+.team-card-area button .icon{
+    position: absolute;
+    right: 25px;
+    top: 12px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}

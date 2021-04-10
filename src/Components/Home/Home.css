@@ -1,0 +1,22 @@
+.teams-showcase-area{
+    background-color: #ff4d4d;
+    padding: 40px 0;
+}
+.team-showcase-container{
+    width: 80%;
+    margin: auto;
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+@media screen and (max-width:992px){
+    .team-showcase-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:768px){
+    .team-showcase-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
